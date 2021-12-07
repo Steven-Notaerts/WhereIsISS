@@ -18,9 +18,9 @@ const fetchData = async () => {
   try {
     const response = await fetch(API_URL);
     const data = await response.json();
-    console.log(data);
+
     const { latitude, longitude } = data;
-    console.log(latitude, longitude);
+
     document.querySelector(".data__latitude").textContent = latitude.toFixed(2);
     document.querySelector(".data__longitude").textContent =
       longitude.toFixed(2);
