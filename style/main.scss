@@ -1,0 +1,14 @@
+﻿@import "./components/header", "./components/map", "./components/footer";
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(174, 175, 175);
+}

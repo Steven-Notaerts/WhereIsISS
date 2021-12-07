@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where is ISS</title>
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">where is the international space station?</h1>
+        <div class="data">
+          <label class="data__label">
+            <span>Latitude:</span>
+            <span class="data__latitude"></span>
+          </label>
+          <label class="data__label">
+            <span>longitude:</span>
+            <span class="data__longitude"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="map">
+        <div class="map__container" id="map"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <span class="footer__data"
+          >map data from
+
+          <a
+            href="https://leafletjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__link"
+            >Leaflet</a
+          >
+        </span>
+      </div>
+    </footer>
+  </body>
+  <script src="/javaScript/index.js"></script>
+</html>

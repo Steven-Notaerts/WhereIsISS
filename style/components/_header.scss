@@ -1,0 +1,45 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+.header {
+  background-color: rgb(66, 67, 66);
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+  }
+  &__title {
+    color: rgb(20, 153, 17);
+    font-family: "DotGothic16", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__label {
+    color: rgb(20, 153, 17);
+    font-size: 1.6rem;
+    margin: 0.4rem;
+    font-family: "DotGothic16", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  &__longitude,
+  &__latitude {
+    letter-spacing: 1px;
+    color: rgb(20, 153, 17);
+    font-size: 1.6rem;
+    margin: 0.4rem;
+    font-family: "DotGothic16", sans-serif;
+  }
+}

@@ -1,0 +1,21 @@
+﻿.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 2.55rem;
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+  }
+  &__data {
+    color: white;
+  }
+  &__link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

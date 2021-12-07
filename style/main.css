@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+.header {
+  background-color: #424342;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1400px;
+  height: 100%;
+}
+
+.header__title {
+  color: #149911;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.header__title::first-letter {
+  text-transform: uppercase;
+}
+
+.data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.data__label {
+  color: #149911;
+  font-size: 1.6rem;
+  margin: 0.4rem;
+  font-family: "DotGothic16", sans-serif;
+  letter-spacing: 1px;
+}
+
+.data__longitude, .data__latitude {
+  letter-spacing: 1px;
+  color: #149911;
+  font-size: 1.6rem;
+  margin: 0.4rem;
+  font-family: "DotGothic16", sans-serif;
+}
+
+#map {
+  height: 800px;
+  width: 1400px;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  height: 2.55rem;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1400px;
+  height: 100%;
+}
+
+.footer__data {
+  color: white;
+}
+
+.footer__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #aeafaf;
+}
+/*# sourceMappingURL=main.css.map */
